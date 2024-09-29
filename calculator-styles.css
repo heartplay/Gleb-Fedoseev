@@ -1,0 +1,116 @@
+.calculator {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+.calculator h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.calculator p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.calc > {
+  /* display: inline; */
+  /* position: relative; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.calc-inputs {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+
+}
+
+input {
+  /* width: 500px; */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.buttons {
+  /* display: inline-block; */
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  
+}
+
+/* .buttons button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgb(93, 229, 85);
+  border: 1px solid red;
+} */
+
+.buttons1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.buttons button {
+  width: 50%;
+}
+
+.buttons button:hover {
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.calculate {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.result {
+  border: 1px solid red;
+  width: 100%;
+}
+
+#result {
+  border: 1px solid red;
+}
+
+
+/* удаление ненужной хуйни в инпуте */
+
+
+
+

@@ -1,0 +1,97 @@
+.notes {
+  /* display: inline-block; */
+  /* border: 1px solid red; */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.note-create {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+}
+
+input {
+  margin-bottom: 5px;
+  padding-left: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  height: 50%;
+  font-size: 16px;
+}
+
+.btn-create {
+  border: 1px solid;
+  height: 50%;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.btn-create:hover {
+  background-color: rgb(82, 82, 185);
+}
+
+.notes-list {
+  border-top: 1px solid red;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.note {
+  font-size: 20px;
+  display: flex;
+  border-bottom: 1px solid red;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  height: 35px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 80px;
+}
+
+.warning {
+  box-sizing: border-box;
+  border: 1px solid red;
+  font-size: 24px;
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.success {
+  box-sizing: border-box;
+  border: 1px solid blue;
+  font-size: 24px;
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.remove {
+  box-sizing: border-box;
+  border: 1px solid red;
+  font-size: 24px;
+  padding-top: 3px;
+  margin-left: 10px;
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+

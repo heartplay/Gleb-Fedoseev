@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+SC:wght@400;500&family=Jersey+15&family=Poiret+One&display=swap");
+body {
+  margin: 0;
+  /* background-color: #2d8c5b; */
+  background-color: black;
+  text-align: center;
+  /* font: normal 20px 'Poiret One', sans-serif; */
+  color: #8efe17;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #23d237;
+}
+
+.header-inner {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 1024px;
+  height: 100%;
+  margin: auto;
+  color: black;
+  font-weight: bold;
+  /* border: 1px solid red; */
+  /* text-align: center; */
+  /* font-size: 24px; */
+  /* color: #34164E; */
+}
+
+.header-inner-left {
+  /* display: flex; */
+  /* align-items: center; */
+  box-sizing: border-box;
+  width: 40%;
+  height: 100%;
+  /* margin: auto; */
+  /* border: 1px solid red; */
+  /* font-size: 14px; */
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  /* letter-spacing: 3.8px; */
+  /* color: #34164E; */
+  color: black;
+}
+
+#avatar-logo {
+  width: 60px;
+  margin-right: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-inner-right {
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.navigation-btn {
+  display: flex;
+  box-sizing: border-box;
+  width: 20%;
+  /* width: 33%; */
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.navigation-link {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 90%;
+  height: 100%;
+  border-top: 8px solid #23d23800;
+  border-bottom: 8px solid #23d23800;
+}
+
+.navigation-link:hover {
+  border-bottom: 8px solid blue;
+}
+
+.navigation-link-current-page {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 90%;
+  height: 100%;
+  border-top: 8px solid #23d23800;
+  border-bottom: 8px solid blue;
+  color: yellow;
+}
+
+.outer {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+.outer h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.outer h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.outer p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.inner {
+  max-width: 600px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #23d237;
+  text-align: center;
+  /* text-align: justify; */ /* книжное выравнивание текста
+    font-size: 18px;
+    font-weight: bold;
+    /* color: #34164E; */
+  color: black;
+}
+
+.inner h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.inner h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.inner p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.zagolovok {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* =================== Старые стили */
+
+/* .navigation a {
+  text-decoration: none;
+  color: #ffd000;
+}
+
+.navigation h3 {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.info {
+  display: flex;
+  border: 1px solid red;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid red;
+}
+
+.info-text {
+  border: 1px solid red;
+}
+
+.head {
+  border: 1px solid red;
+} */
+
+/* html {
+  transform: scaleX(-1);
+} */
+
+/* html {
+  transform: skewY(10deg) skewX(5deg);
+  transform: ;
+}  */
+
+/* @media (max-width: 500px) {
+  input {
+    height: 5dvh;
+  }
+} */
+
+/* html {
+  animation: rotation 50s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg) scaleX(-1);
+  }
+  to {
+    transform: rotate(360deg) scaleX(1);
+  }
+}  */
