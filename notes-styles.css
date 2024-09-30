@@ -62,6 +62,10 @@ input {
   width: 80px;
 }
 
+.buttons button:hover {
+  cursor: pointer;
+}
+
 .warning {
   box-sizing: border-box;
   border: 1px solid red;
